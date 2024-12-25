@@ -10,7 +10,7 @@ import CreateForm from './components/Create-Form/CreateForm'
 import Footer from './components/Footer/Footer'
 export default function App() {
   return (
-    <div>
+    <>
       <NavBar />
 
       <Routes>
@@ -23,6 +23,6 @@ export default function App() {
 
       <Footer />
       
-      </div>
+      </>
   )
 }
