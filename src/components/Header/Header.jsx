@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import About from '../About/About'
+import ProductLimt from '../Products/ProductLimt.jsx'
 
 
 
@@ -22,6 +23,7 @@ export default function Header() {
 
       </div>
       <About />
+      <ProductLimt />
       </div>
 
     </>
