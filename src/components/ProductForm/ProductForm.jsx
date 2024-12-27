@@ -34,7 +34,7 @@ function ProductForm({ onAddProduct }) {
       <label>
         Price:
         <input type="number" value={price} onChange={(e) => setPrice(e.target.value)} />
-      </label><br />
+      </label><br /> <br /><br />
       <button className="btn btn-outline-success btn-lg" type="submit">Add Product</button>
     </form>
   );
