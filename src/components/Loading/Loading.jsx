@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function Loading() {
   return (
+    
+    <div className="container">
+
+    
     <div className="card" aria-hidden="true">
   
     <div className="card-body">
@@ -18,6 +22,7 @@ export default function Loading() {
         <span className="placeholder col-8" />
       </p>
     </div>
+  </div>
   </div>
   )
 }
