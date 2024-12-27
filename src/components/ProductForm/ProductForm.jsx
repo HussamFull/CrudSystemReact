@@ -22,9 +22,10 @@ function ProductForm({ onAddProduct }) {
 
   return (
     <form onSubmit={handleSubmit}>
+        
       <label>
         Title:
-        <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
+        <input class="form-label"  type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
       </label><br />
       <label>
         Description:
@@ -34,7 +35,7 @@ function ProductForm({ onAddProduct }) {
         Price:
         <input type="number" value={price} onChange={(e) => setPrice(e.target.value)} />
       </label><br />
-      <button type="submit">Add Product</button>
+      <button className="btn btn-outline-success btn-lg" type="submit">Add Product</button>
     </form>
   );
 }
