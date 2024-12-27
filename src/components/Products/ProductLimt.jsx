@@ -22,7 +22,7 @@ export default function ProductLimt() {
    
   
       <div className="container">
-      <h1>Products</h1>
+      <h1>Top 5 Products</h1>
         <div className="row">
           {data.products.map((product) => (
             <div className="col-md-4" key={product.id}> 
